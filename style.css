@@ -8,7 +8,7 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
-  color: var(--black);
+  color: var(--gray);
   font-weight: bold;
 }
 
@@ -61,7 +61,7 @@ body {
   float: right;
 }
 
-.about_header {
+.section_header {
   color: var(--gray);
 }
 
@@ -77,4 +77,43 @@ body {
   color: var(--gray);
   font-size: medium;
   float: left;
+}
+
+.line_header {
+  color: var(--violetred);
+  border-bottom: solid 2px var(--violetred);
+  text-align: center;
+  margin-top: -20px;
+}
+
+.section_header {
+  background-color: var(--violetred);
+  color: white;
+  text-align: center;
+}
+
+.source {
+  color: var(--violetred);
+  margin-top: -20px;
+}
+
+.list_item {
+  font-size: medium;
+}
+
+.date {
+  margin-top: -20px;
+}
+
+.class {
+  font-size: larger;
+  margin-bottom: -0.1px;
+}
+
+.line_header_classes {
+  margin-bottom: -50px;
+  color: var(--violetred);
+  border-bottom: solid 2px var(--violetred);
+  text-align: center;
+  margin-top: -20px;
 }
