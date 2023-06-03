@@ -16,9 +16,22 @@ body {
   font-weight: bold;
 }
 
+.header {
+  text-align: center;
+  font-size: 200px;
+  height: 100px;
+  margin-top: 10px;
+  color: var(--violetred);
+}
+
 .logo {
-  width: 10%;
-  height: 10%;
+  display: block;
+  width: 70%;
+  height: 850px;
+  object-fit: cover;
+  object-position: 0% 47%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar {
