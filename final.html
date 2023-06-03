@@ -291,6 +291,71 @@
           </p>
         </div>
       </div>
+      <h2 class="section_header" id="contact">Contact Me!</h2>
+      <div class="row">
+        <div class="column">
+          <form class="form" id="regform" action="" target="_parent">
+            <div class="text">
+              <label class="label" for="name">Name:</label>
+              <input class="box" type="text" id="name" name="name" />
+            </div>
+            <div class="text">
+              <label class="label" for="title">Title:</label>
+              <input class="box" type="text" id="title" title="title" />
+            </div>
+            <div class="text">
+              <label class="label" for="email">Email:</label>
+              <input
+                class="box"
+                type="email"
+                id="email"
+                autocomplete="email"
+              /><br />
+            </div>
+            <div class="text">
+              <label class="label" for="message">Message:</label>
+              <input class="message_box" type="text" id="message" /><br />
+            </div>
+            <div class="radio">
+              <fieldset id="pronouns" class="fieldset">
+                <legend class="label" id="pref">Preferred Pronouns</legend>
+                <input type="radio" id="she" name="pronouns" value="She/Her" />
+                <label class="labelr" for="she">She/her</label><br />
+                <input type="radio" id="he" name="pronouns" value="He/Him" />
+                <label class="labelr" for="he">He/him</label><br />
+                <input
+                  type="radio"
+                  id="they"
+                  name="pronouns"
+                  value="They/Them"
+                />
+                <label class="labelr" for="they">They/them</label><br />
+                <input
+                  type="radio"
+                  id="declined"
+                  name="pronouns"
+                  value="Declined"
+                />
+                <label class="labelr" for="declined">I prefer not to say</label
+                ><br />
+              </fieldset>
+            </div>
+            <div class="bottom">
+              <input class="button" type="submit" value="Submit" />
+              <input class="button" type="reset" value="Reset" />
+            </div>
+          </form>
+        </div>
+        <div class="column">
+          <img
+            class="proj_img"
+            src="../images/logo.png"
+            alt="Logo holder image"
+            height="400px"
+            width="400px"
+          />
+        </div>
+      </div>
     </main>
   </body>
 </html>

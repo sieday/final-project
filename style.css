@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --black: #3c2d40;
   --white: #fefefe;
@@ -125,4 +129,91 @@ body {
   color: var(--white);
   background-color: var(--violetred);
   padding: 10px;
+}
+
+.form {
+  border: 1px solid var(--black);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 400px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.labelr {
+  font-size: medium;
+  width: 50%;
+}
+
+.bold {
+  font-weight: bold;
+  color: var(--black);
+}
+
+.muted {
+  color: var(--gray);
+  text-align: left;
+  margin-top: -20px;
+}
+
+.box {
+  float: right;
+  width: 50%;
+}
+
+.radio {
+  width: 50%;
+}
+
+.button[type="submit"] {
+  background-color: var(--black);
+  color: var(--white);
+  width: 45%;
+  height: 40px;
+  margin: 10px;
+}
+
+.button[type="submit"]:hover {
+  background-color: var(--violetred);
+  color: var(--white);
+}
+
+.text {
+  margin: 10px;
+}
+
+.button[type="reset"] {
+  background-color: var(--white);
+  color: var(--black);
+  width: 45%;
+  height: 40px;
+}
+
+.button[type="reset"]:hover {
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+.fieldset {
+  border: 0px solid var(--white);
+  margin: 10px;
+  width: 200px;
+  margin-left: -6px;
+  text-align: left;
+  float: left;
+}
+
+.legend {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.message_box {
+  float: right;
+  width: 50%;
+  height: 100px;
 }
