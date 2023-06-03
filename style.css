@@ -52,6 +52,7 @@ body {
 .column {
   flex: 45%;
   margin: 5%;
+  flex-wrap: wrap;
 }
 
 .portrait {
@@ -116,4 +117,12 @@ body {
   border-bottom: solid 2px var(--violetred);
   text-align: center;
   margin-top: -20px;
+}
+
+.git_link {
+  border: solid 2px var(--violetred);
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--violetred);
+  padding: 10px;
 }
