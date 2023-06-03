@@ -16,12 +16,25 @@ body {
   font-weight: bold;
 }
 
+.header_hold {
+  width: 100%;
+  height: 300px;
+}
+
 .header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+}
+
+.header_title {
   text-align: center;
   font-size: 200px;
   height: 100px;
   margin-top: 10px;
   color: var(--violetred);
+  background-color: white;
 }
 
 .logo {
@@ -59,7 +72,8 @@ body {
 }
 
 .navlink:active {
-  color: var(--orange);
+  background-color: var(--white);
+  color: var(--violetred);
 }
 
 .row {
@@ -77,10 +91,6 @@ body {
   object-fit: cover;
   object-position: 0 30%;
   float: right;
-}
-
-.section_header {
-  color: var(--gray);
 }
 
 .about_hello {
@@ -105,9 +115,7 @@ body {
 }
 
 .section_header {
-  background-color: var(--violetred);
-  color: white;
-  text-align: center;
+  padding-top: 250px;
 }
 
 .source {
