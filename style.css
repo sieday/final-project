@@ -87,7 +87,8 @@ body {
 }
 
 .portrait {
-  height: 800px;
+  height: 550px;
+  width: 700px;
   object-fit: cover;
   object-position: 0 30%;
   float: right;
@@ -97,8 +98,7 @@ body {
   color: var(--gray);
   font-size: xx-large;
   float: left;
-  vertical-align: middle;
-  margin-top: 200px;
+  margin-top: 20px;
 }
 
 .about_content {
@@ -115,7 +115,10 @@ body {
 }
 
 .section_header {
-  padding-top: 250px;
+  text-align: center;
+  font-size: 150px;
+  color: var(--violetred);
+  background-color: white;
 }
 
 .source {
@@ -150,10 +153,24 @@ body {
   color: var(--white);
   background-color: var(--violetred);
   padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.proj-img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 0%;
+}
+
+.proj_title {
+  color: var(--violetred);
 }
 
 .form {
-  border: 1px solid var(--black);
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
@@ -186,10 +203,6 @@ body {
   width: 50%;
 }
 
-.radio {
-  width: 50%;
-}
-
 .button[type="submit"] {
   background-color: var(--black);
   color: var(--white);
@@ -217,20 +230,6 @@ body {
 .button[type="reset"]:hover {
   background-color: var(--gray);
   color: var(--white);
-}
-
-.fieldset {
-  border: 0px solid var(--white);
-  margin: 10px;
-  width: 200px;
-  margin-left: -6px;
-  text-align: left;
-  float: left;
-}
-
-.legend {
-  font-size: medium;
-  font-weight: bold;
 }
 
 .message_box {
