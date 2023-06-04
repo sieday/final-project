@@ -1,8 +1,8 @@
 $(document).ready(() => {
-  const about_val = 1282;
-  const exp_val = 2499;
-  const proj_val = 4581;
-  const cont_val = 6395;
+  const about_val = 800;
+  const exp_val = 2200;
+  const proj_val = 4000;
+  const cont_val = 5800;
   $(window).on("scroll", function () {
     var curr = document.documentElement.scrollTop || document.body.scrollTop;
     if (curr >= cont_val) {
