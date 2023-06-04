@@ -66,12 +66,18 @@ body {
   display: block;
 }
 
-.navlink:hover {
+.current {
+  color: var(--white);
+  text-decoration: none;
+  padding: 25px 10%;
+  margin: -1%;
+  font-size: 20px;
+  display: block;
   background-color: var(--white);
   color: var(--violetred);
 }
 
-.navlink:active {
+.navlink:hover {
   background-color: var(--white);
   color: var(--violetred);
 }
@@ -87,8 +93,8 @@ body {
 }
 
 .portrait {
-  height: 550px;
-  width: 700px;
+  height: 80%;
+  width: 100%;
   object-fit: cover;
   object-position: 0 30%;
   float: right;
@@ -98,7 +104,7 @@ body {
   color: var(--gray);
   font-size: xx-large;
   float: left;
-  margin-top: 20px;
+  margin-top: 5%;
 }
 
 .about_content {
@@ -140,11 +146,10 @@ body {
 }
 
 .line_header_classes {
-  margin-bottom: -50px;
+  margin-bottom: -5%;
   color: var(--violetred);
   border-bottom: solid 2px var(--violetred);
   text-align: center;
-  margin-top: -20px;
 }
 
 .git_link {
@@ -152,11 +157,11 @@ body {
   text-decoration: none;
   color: var(--white);
   background-color: var(--violetred);
-  padding: 10px;
+  padding: 2%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 2%;
   text-align: center;
+  width: 90%;
 }
 
 .proj-img {
@@ -172,7 +177,6 @@ body {
 
 .form {
   background-color: var(--violetred);
-  height: 500px;
 }
 
 .label {
@@ -214,6 +218,7 @@ body {
   font-size: 30px;
   border: solid 1px var(--white);
   margin: auto;
+  transition: all 0.25s ease;
 }
 
 .button[type="submit"]:hover {
@@ -227,7 +232,7 @@ body {
 
 .textarea {
   margin: 10px;
-  margin-bottom: 140px;
+  margin-bottom: 10%;
 }
 
 .form_row {
@@ -241,10 +246,54 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .icon {
-  height: 150px;
+  height: 25%;
   width: 100%;
+}
+
+@media (max-width: 1500px) {
+  .header {
+    position: relative;
+  }
+  .header_title {
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .header_hold {
+    height: 0px;
+    width: 0px;
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .row {
+    display: grid;
+  }
+  .column {
+    display: grid;
+  }
+  .section_header {
+    font-size: 300%;
+  }
+  .social {
+    flex-wrap: wrap;
+  }
+  .box {
+    float: none;
+    width: 100%;
+    height: 30px;
+  }
+  .message_box {
+    float: none;
+    width: 100%;
+    height: 150px;
+    resize: none;
+  }
 }

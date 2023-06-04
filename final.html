@@ -7,17 +7,18 @@
     <title>Sienna Day</title>
     <link rel="icon" type="image/x-icon" href="/images/logo.png" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="final.js"></script>
   </head>
   <body>
     <main>
       <div class="header">
         <h1 class="header_title">SIENNA DAY</h1>
-        <nav class="navbar">
-          <a class="navlink" href="#about">ABOUT</a>
-          <a class="navlink" href="#experience">EXPERIENCE</a>
-          <a class="navlink" href="#projects">PROJECTS</a>
-          <a class="navlink" href="#contact">CONTACT</a>
+        <nav id="0" class="navbar">
+          <a id="1" class="navlink" href="#about">ABOUT</a>
+          <a id="2" class="navlink" href="#experience">EXPERIENCE</a>
+          <a id="3" class="navlink" href="#projects">PROJECTS</a>
+          <a id="4" class="navlink" href="#contact">CONTACT</a>
         </nav>
       </div>
       <div class="header_hold" alt="NULL"></div>
@@ -266,19 +267,6 @@
       </div>
       <div class="row">
         <div class="column">
-          <img
-            class="proj-img"
-            src="../images/graphics-proj.png"
-            alt="Logo holder image"
-          />
-          <a
-            class="git_link"
-            href="https://github.com/sieday/Computer-Graphics-Final"
-          >
-            View Project
-          </a>
-        </div>
-        <div class="column">
           <h3 class="proj_title">Animated Amusement Park</h3>
           <p class="proj_desc">
             This was one of the most difficult projects I have completed
@@ -293,25 +281,38 @@
             tested my ability.
           </p>
         </div>
+        <div class="column">
+          <img
+            class="proj-img"
+            src="../images/graphics-proj.png"
+            alt="Logo holder image"
+          />
+          <a
+            class="git_link"
+            href="https://github.com/sieday/Computer-Graphics-Final"
+          >
+            View Project
+          </a>
+        </div>
       </div>
       <h2 class="section_header" id="contact">CONTACT</h2>
       <div class="form_row">
         <div class="column">
           <form class="form" id="form" action="" target="_parent">
             <div class="text">
-              <label class="label" for="name">NAME:</label>
+              <label class="label" for="name">NAME</label>
               <input class="box" type="text" id="name" name="name" />
             </div>
             <div class="text">
-              <label class="label" for="title">TITLE:</label>
+              <label class="label" for="title">TITLE</label>
               <input class="box" type="text" id="title" title="title" />
             </div>
             <div class="text">
-              <label class="label" for="company">COMPANY:</label>
+              <label class="label" for="company">COMPANY</label>
               <input class="box" type="text" id="title" title="title" />
             </div>
             <div class="text">
-              <label class="label" for="email">EMAIL:</label>
+              <label class="label" for="email">EMAIL</label>
               <input
                 class="box"
                 type="email"
@@ -320,7 +321,7 @@
               /><br />
             </div>
             <div class="textarea">
-              <label class="label" for="message">MESSAGE:</label>
+              <label class="label" for="message">MESSAGE</label>
               <textarea
                 class="message_box"
                 type="textarea"
