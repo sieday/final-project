@@ -295,19 +295,23 @@
         </div>
       </div>
       <h2 class="section_header" id="contact">CONTACT</h2>
-      <div class="row">
+      <div class="form_row">
         <div class="column">
-          <form class="form" id="regform" action="" target="_parent">
+          <form class="form" id="form" action="" target="_parent">
             <div class="text">
-              <label class="label" for="name">Name:</label>
+              <label class="label" for="name">NAME:</label>
               <input class="box" type="text" id="name" name="name" />
             </div>
             <div class="text">
-              <label class="label" for="title">Title:</label>
+              <label class="label" for="title">TITLE:</label>
               <input class="box" type="text" id="title" title="title" />
             </div>
             <div class="text">
-              <label class="label" for="email">Email:</label>
+              <label class="label" for="company">COMPANY:</label>
+              <input class="box" type="text" id="title" title="title" />
+            </div>
+            <div class="text">
+              <label class="label" for="email">EMAIL:</label>
               <input
                 class="box"
                 type="email"
@@ -315,24 +319,36 @@
                 autocomplete="email"
               /><br />
             </div>
-            <div class="text">
-              <label class="label" for="message">Message:</label>
-              <input class="message_box" type="text" id="message" /><br />
+            <div class="textarea">
+              <label class="label" for="message">MESSAGE:</label>
+              <textarea
+                class="message_box"
+                type="textarea"
+                id="message"
+              ></textarea>
             </div>
             <div class="bottom">
-              <input class="button" type="submit" value="Submit" />
-              <input class="button" type="reset" value="Reset" />
+              <input class="button" type="submit" value="SUBMIT" />
             </div>
           </form>
-        </div>
-        <div class="column">
-          <img
-            class="proj_img"
-            src="../images/logo.png"
-            alt="Logo holder image"
-            height="400px"
-            width="400px"
-          />
+          <div class="social">
+            <a href="https://linkedin.com/in/siennaday"
+              ><img
+                class="icon"
+                src="../images/linkedin.png"
+                alt="LinkedIn Logo"
+            /></a>
+            <a href="https://github.com/sieday"
+              ><img class="icon" src="../images/github.png" alt="Github Logo"
+            /></a>
+            <a
+              href="https://storymaps.arcgis.com/stories/6c539be16ed44e64b5529728fa64c737"
+              ><img
+                class="icon"
+                src="../images/arcgis.png"
+                alt="ArcGis Pro Logo"
+            /></a>
+          </div>
         </div>
       </div>
     </main>
