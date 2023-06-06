@@ -21,7 +21,7 @@
           <a id="4" class="navlink" href="#contact">CONTACT</a>
         </nav>
       </div>
-      <div class="header_hold" alt="NULL"></div>
+      <div class="header_hold"></div>
       <img
         class="logo"
         src="logo.png"
@@ -37,7 +37,7 @@
           />
         </div>
         <div class="column">
-          <p class="about_hello">Hello!</p>
+          <h3 class="about_hello">Hello!</h3>
           <p class="about_content">
             My name is Sienna Day and I am a student focusing on the
             intersection between geographic information systems and computer
@@ -125,15 +125,15 @@
           <h4 class="title">B.S. Computer Science</h4>
           <h5 class="source">Portland State University</h5>
           <h6 class="date">August 2019-2023</h6>
-          <u1 class="list">
+          <ul class="list">
             <li class="list_item">Minor in Geographic Information Systems</li>
-          </u1>
+          </ul>
           <h4 class="title">
             Trauma Responsive Education: Supporting Students and Yourself
           </h4>
           <h5 class="source">Teaching Tolerance</h5>
           <h6 class="date">April 2021</h6>
-          <u1 class="list">
+          <ul class="list">
             <li class="list_item">
               More deeply understand how trauma impacts learning and
               relationships in schools.
@@ -145,11 +145,11 @@
               Gain tools and ideas for ways your school can better address
               trauma and deepen relationships
             </li>
-          </u1>
+          </ul>
           <h4 class="title">Zoom Technician Training</h4>
           <h5 class="source">Portland State University</h5>
           <h6 class="date">March 2021</h6>
-          <u1 class="list">
+          <ul class="list">
             <li class="list_item">
               Educate students and teachers from a variety of backgrounds on
               Zoom techniques.
@@ -158,13 +158,13 @@
               Communicate technical information effectively in person, over the
               phone, and online
             </li>
-          </u1>
+          </ul>
         </div>
       </div>
       <div class="row">
         <div class="column">
           <h3 class="line_header">Skills</h3>
-          <u1 class="list">
+          <ul class="list">
             <li class="list_item">Microsoft Office: Word, Excel, Outlook</li>
             <li class="list_item">Equitable Communication</li>
             <li class="list_item">OCHIN/EPIC EHR</li>
@@ -172,63 +172,63 @@
             <li class="list_item">Python, C++, SQL</li>
             <li class="list_item">ArcGIS: Pro, Desktop, Online</li>
             <li class="list_item">PostGIS</li>
-          </u1>
+          </ul>
         </div>
         <div class="column">
           <h3 class="line_header">Areas of Interest</h3>
-          <ui class="list">
+          <ul class="list">
             <li class="list_item">Data Storytelling</li>
             <li class="list_item">Equitable Design</li>
             <li class="list_item">Health Informatics</li>
             <li class="list_item">Data Advocacy</li>
-          </ui>
+          </ul>
         </div>
       </div>
       <h3 class="line_header_classes">Relevant Classes</h3>
       <div class="row">
         <div class="column">
           <h4 class="class">Intro to Database Management Systems</h4>
-          <ui class="list">
+          <ul class="list">
             <li class="list_item">
               Created, loaded, queried, and optimized relational databases.
             </li>
-          </ui>
+          </ul>
           <h4 class="class">Remote Sensing and Image Analysis</h4>
-          <ui class="list">
+          <ul class="list">
             <li class="list_item">
               Interpreted and measured remotely sensed imagery used for mapping
               and spatial data development.
             </li>
-          </ui>
+          </ul>
           <h4 class="class">Digital Compilation and Database Design</h4>
-          <ui class="list">
+          <ul class="list">
             <li class="list_item">
               Design, implement, and document geo-spatial databases
             </li>
-          </ui>
+          </ul>
         </div>
         <div class="column">
           <h4 class="class">Computer Graphics</h4>
-          <ui class="list">
+          <ul class="list">
             <li class="list_item">
               Apply linear algebra to design and implement interactive graphic
               systems.
             </li>
-          </ui>
+          </ul>
           <h4 class="class">Intro to Operating Systems</h4>
-          <ui class="list">
+          <ul class="list">
             <li class="list_item">
               Implement and test XV6 operating system to production standard.
             </li>
-          </ui>
+          </ul>
           <h4 class="class">Malware Reverse Engineering</h4>
-          <ui class="list">
+          <ul class="list">
             <li class="list_item">
               Examine and implement modern defense systems for malware while
               exploring techniques malicious code developers use to explpoit
               vulnerable systems.
             </li>
-          </ui>
+          </ul>
         </div>
       </div>
       <h2 class="section_header" id="projects">PROJECTS</h2>
@@ -255,7 +255,11 @@
           </p>
         </div>
         <div class="column">
-          <img class="proj-img" src="group-proj.jpeg" alt="Logo holder image" />
+          <img
+            class="proj-img"
+            src="group-proj.jpeg"
+            alt="People sitting together around a table working"
+          />
           <a class="git_link" href="https://github.com/tr33rt/ChocAn">
             View Project
           </a>
@@ -281,7 +285,7 @@
           <img
             class="proj-img"
             src="graphics-proj.png"
-            alt="Logo holder image"
+            alt="Polygon ferris wheel, trees, and paths to form amusement park"
           />
           <a
             class="git_link"
@@ -294,7 +298,7 @@
       <h2 class="section_header" id="contact">CONTACT</h2>
       <div class="form_row">
         <div class="column">
-          <form class="form" id="form" action="" target="_parent">
+          <form class="form" id="form" action="submit" target="_parent">
             <div class="text">
               <label class="label" for="name">NAME</label>
               <input class="box" type="text" id="name" name="name" />
@@ -305,7 +309,7 @@
             </div>
             <div class="text">
               <label class="label" for="company">COMPANY</label>
-              <input class="box" type="text" id="title" title="title" />
+              <input class="box" type="text" id="company" />
             </div>
             <div class="text">
               <label class="label" for="email">EMAIL</label>
@@ -318,11 +322,7 @@
             </div>
             <div class="textarea">
               <label class="label" for="message">MESSAGE</label>
-              <textarea
-                class="message_box"
-                type="textarea"
-                id="message"
-              ></textarea>
+              <textarea class="message_box" id="message"></textarea>
             </div>
             <div class="bottom">
               <input class="button" type="submit" value="SUBMIT" />
